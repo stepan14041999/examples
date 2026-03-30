@@ -2,5 +2,5 @@
   "category": "payments",
   "priority": "high",
   "region": "ru-central",
-  "tags": ["fraud", "retry", "vip"]
+  "tags": "fraud"
 }
