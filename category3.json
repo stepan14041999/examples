@@ -1,0 +1,18 @@
+{
+  "id": "ord-2024-001",
+  "type": "order",
+  "payload": {
+    "orderId": "ORD-9981",
+    "items": 3,
+    "total": 4299.99
+  },
+  "enrichment": {
+    "category": "ecommerce",
+    "priority": "high",
+    "region": "ru-south",
+    "tags": ["new", "express"]
+  },
+  "msg.recipients": ["warehouse@shop.ru", "client@mail.ru"],
+  "source": "shop-backend",
+  "traceId": "abc-123"
+}
